@@ -7,7 +7,7 @@ import { Output } from '../components/Output';
 import { Sources } from '../components/Sources';
 import { useConversation } from '../hooks/useConversation';
 import { useStream } from '../hooks/useStream';
-import { namespace, suggestions } from '../../config';
+import { title, suggestions } from '../../config';
 import type { FormEventHandler, ChangeEventHandler } from 'react';
 
 const inter = Inter({ weight: '300', subsets: ['latin'] });
@@ -51,11 +51,11 @@ export default function Main() {
   return (
     <main className={`h-screen ${inter.className}`}>
       <Head>
-        <title key="title">{namespace}</title>
+        <title>{title}</title>
       </Head>
       <div className="h-full relative flex flex-col justify-between">
         <header className="flex flex-row items-center justify-between py-4">
-          <h1 className="text-3xl">{namespace}</h1>
+          <h1 className="text-3xl">{title}</h1>
           <a href="https://github.com/7-docs/7-docs" className="text-xs italic hover:underline">
             Powered by 7-docs
           </a>

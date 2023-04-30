@@ -13,7 +13,7 @@ Starterkit for OpenAI chat client based on your own content. Main ingredients:
 - [Use this template](https://github.com/7-docs/template-next-supabase/generate)
 - Clone your new repo
 - `npm install`
-- [Prepare vector database](#prepare)
+- [Prepare vector database](#prepare-db)
 - [Ingest content](#ingest)
 - `cp .env.example .env.local` and paste your tokens: `OPENAI_API_KEY`, `SUPABASE_URL`, `SUPABASE_API_KEY`
 
@@ -51,7 +51,9 @@ npm run dev
 
 ## Deploy
 
-This application can be deployed somewhere with support for Next.js + edge functions. Examples:
+This application can be deployed on platforms with support for Next.js + edge functions. Examples:
 
 - [Vercel](https://vercel.com)
 - [Fly.io](https://fly.io)
+
+Make sure to add the environment variables to the platform first.
