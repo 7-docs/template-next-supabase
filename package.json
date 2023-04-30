@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@7-docs/edge": "0.0.6",
+    "@7-docs/edge": "^0.1.0",
     "@supabase/supabase-js": "2.21.0",
-    "@types/node": "18.16.2",
+    "@types/node": "^18.16.3",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
     "autoprefixer": "10.4.14",
-    "next": "13.3.1",
+    "next": "^13.3.2",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -25,6 +25,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@7-docs/cli": "^0.1.0",
     "@types/react-syntax-highlighter": "^15.5.6"
   }
 }
